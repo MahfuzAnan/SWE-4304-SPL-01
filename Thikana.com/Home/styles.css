@@ -15,15 +15,6 @@ li, a, button{
     text-decoration: none;
 }
 
-/* .background_image{
-    background-image: url(/Images/todd-kent-178j8tJrNlc-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 70rem;
-    opacity: .6;
-} */
-
-
 header{
     display: flex;
     justify-content: space-between;
@@ -40,7 +31,7 @@ header{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex;                        /*  needs to be flex to be responsive */
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -60,15 +51,6 @@ header{
     color:rgb(255, 255, 255);
     font-size: 3rem;
 }
-
-/* .home form .buttons-container{
-    display: flex;
-    gap:1.5rem;
-} */
-
-/* .home form .buttons-container .btn{
-    flex:1;
-} */
 
 .home form .inputBox{
     display: flex;
