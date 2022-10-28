@@ -1,5 +1,8 @@
 /* Google Font Import - Poformins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
 
 *{
     margin: 0;
@@ -8,7 +11,66 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #e5f1f7;
+    text-decoration: none;
+}
+.lbutton{
+    opacity: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #081642;
+}
+
+.home form .btn:hover{
+    background-color: rgb(3, 113, 140);
+}
+
+.site_name{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+}
+
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088A9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(0, 136, 169, 0.8);
+}
+
+.addProperty{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +78,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 130vh;
-    margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
 }
 
 .container{
