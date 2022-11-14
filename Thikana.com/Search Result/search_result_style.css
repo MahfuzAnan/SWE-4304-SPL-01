@@ -59,32 +59,18 @@ header{
 .showResult{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-image: url(/Images/todd-kent-178j8tJrNlc-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(0, 136, 169, 1);
-    height: 90vh;
-}
-
-.container{
-    position: relative;
-    max-width: 80rem;
-    width: 100%;
-    background: #fff;
-    border-radius: 1.25rem;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.container .form{
-    padding: 60px;
+    min-height: 90vh;
+    height: auto;
 }
 
 .title{
     color: white;
     display: flex;  
-    align-items: center;
     justify-content: center;
     position: relative;
     font-size: 50px;
@@ -92,11 +78,33 @@ header{
     padding-bottom: 2rem;
 }
 
+.container{
+    margin-left: 10rem;
+    position: relative;
+    max-width: 80rem;
+    width: 69%;
+    background: #fff;
+    border-radius: 1.25rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .form{
+    padding: 3rem;
+    display: flex;  
+    align-items: center;
+}
+
+img{
+    position: relative;
+    width: 17rem;
+    height: 17rem;
+}
 
 .results
 {
-    padding-left: 15rem;
+    padding-left: 2rem;
 }
+
 
 p{
     padding-bottom: 1rem;
@@ -142,4 +150,15 @@ p{
 {
     font-size: 1.2rem;
     padding-right: 1rem;
+}
+
+.link
+{
+    text-decoration: none;
+}
+
+
+label
+{
+    color: black;
 }
