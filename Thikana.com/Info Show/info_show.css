@@ -71,20 +71,60 @@ header{
 
 .container{
     position: relative;
-    max-width: 50rem;
+    max-width: 93rem;
     width: 100%;
     background: #fff;
     border-radius: 1.25rem;
+    border-style: hiddne;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 4rem;
+
+    min-height: 80rem;
+    /* margin-left: 1rem; */
 }
 
 .container .form{
-    padding: 60px;
+    padding: 2rem;  
+}
+
+
+.block
+{
+    display: flex;
+}
+
+
+/* After the Block class */
+
+img{
+    position: relative;
+    height: 30rem;
+    width: 55rem;
+}
+
+
+#image-show
+{
+    width: 60%;
+}
+
+.swiper
+{
+    height: fit-content;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next
+{
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active
+{
+    background: white;
 }
 
 .title{
-    color: white;
+    color: black;
     display: flex;  
     align-items: center;
     justify-content: center;
@@ -95,21 +135,141 @@ header{
 }
 
 
-.information
+p{
+    padding-bottom: 1rem;
+}
+
+
+
+#reviews
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}   
-
-p{
-    padding-bottom: 1.5rem;
 }
 
 
-.information .line
+#review-text
 {
+    font-size: 1.6rem; 
+}
+
+
+.review-box
+{
+    width: 90%;
+    background: aliceblue;
+    border-radius: 1.25rem;
+    border-color: black;
+    border-style: solid;
+    
+    padding: 1rem;
+    margin-top: 1rem;
+
+    /* margin-left: 3rem; */
+      
+}
+
+
+
+
+/* The second block */
+
+.results
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: center;
+    margin : 1rem 1rem;
+}
+
+
+
+.results .currency
+{
+    font-weight: bold;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.results .amount
+{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.results .location
+{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.results .apartment
+{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+
+.results .amenities
+{
+    color: brown;
     font-size: 1.6rem;
 }
 
+.results .beds-baths
+{
+    font-size: 1.6rem;
+    padding-right: 1.3rem;
+}
+
+.results .area
+{
+    font-size: 1.6rem;
+    padding-right: 1rem;
+}
+
+.results .description
+{
+    font-size: 1.3rem;
+}
+
+
+
+/* Buttons */
+
+.btn{
+    width: 100%;
+    margin-top: 0rem;
+    display: inline-block;
+    padding: 0.8rem 3.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    background: rgb(0, 136, 169, 1);
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.btn:hover{
+    background-color: rgb(3, 113, 140);
+}
+
+.buttons .btn
+{
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+
+.margin-top-2rem
+{
+    margin-top: 2rem;
+}
