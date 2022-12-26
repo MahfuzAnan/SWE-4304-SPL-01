@@ -79,10 +79,19 @@
 
                     <h2>Give Image</h2>
                     <div id="image-upload" method="POST" enctype="multipart/form-data">
-                        <input type="file" name="image"/>
+                        <input type="file" class="image-input" name="image"/>
+                        <input type="file" class="image-input" name="image"/>
+                        <input type="file" class="image-input" name="image"/>
                     </div>
                     <!-- <a href="item_add.php"> item add </a> <br>
                     <a href="LogOUT.php">Log out </a> -->
+
+                    <div class="check-box">
+
+                        <input type="checkbox" class="option-input">
+                        I Confirm that the information is valid
+
+                    </div>
 
                 </section>
 
@@ -98,12 +107,18 @@
                 
                 </section>
 
-
                 
 
             </block>
 
+            <div class="buttons">
+                <input type="submit" value="Validate Information" class="btn">
+            </div>
 
+            <div class="buttons">
+                <input type="submit" value="Reject Information" class="btn">
+            </div>
+            
 
         </div>
 

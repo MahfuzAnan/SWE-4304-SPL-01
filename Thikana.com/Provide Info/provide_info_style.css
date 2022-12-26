@@ -69,7 +69,7 @@ body{
 
 #info-show
 {
-    width: 55%;
+    width: 50%;
 }
 
 h2
@@ -84,6 +84,30 @@ h2
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.image-input
+{
+    padding-bottom: 0.5rem;
+}
+
+.check-box
+{
+    padding-top: 2rem;
+    padding-left: 7rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}
+
+.option-input
+{
+    position: relative;
+    height: 19px;
+    width: 19px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 10000000;
 }
 
 .textarea 
@@ -138,7 +162,7 @@ label
 
 .information
 {
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,4 +172,38 @@ label
 .information .line
 {
     font-size: 1.6rem;
+}
+
+
+
+
+
+/* Buttons */
+
+.btn {
+    width: 20%;
+    
+    display: inline-block;
+    padding: 0.8rem 3.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    background: rgb(0, 136, 169, 1);
+    cursor: pointer;
+    text-align: center;
+
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+
+
+.btn:hover {
+    background-color: rgb(3, 113, 140);
+}
+
+.buttons
+{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
 }
