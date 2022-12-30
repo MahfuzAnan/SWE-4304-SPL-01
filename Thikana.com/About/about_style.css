@@ -106,7 +106,7 @@ button:hover{
     padding: 19px 32px;
     background-color: rgb(0, 136, 169, 1);
     border: none;
-    border-radius: 0px;
+    border-radius: .5rem;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     opacity: 1;
